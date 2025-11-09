@@ -3,7 +3,7 @@
 ```
 git clone https://github.com/helensmage/DeviceMonitoring.git
 ```
-2. Откройте терминал в папке с файлом ***.sln*** или ***.csproj***
+2. Откройте терминал в папке с файлом ***.sln***
 ```
 cd DeviceMonitoring
 ```
@@ -15,7 +15,11 @@ dotnet restore
 ```
 dotnet build
 ```
-5. Запустите проект
+5. Откройте терминал в папке с файлом ***.csproj***
+```
+cd DeviceMonitoring
+```
+6. Запустите проект
 ```
 dotnet run
 ```
